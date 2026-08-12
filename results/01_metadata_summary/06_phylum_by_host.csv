@@ -1,0 +1,6 @@
+Host,Acidobacteriota,Actinobacteriota,Bacteroidota,Bdellovibrionota,Campylobacterota,Chloroflexota,Cyanobacteria,DRYD01,Deinococcota,Desulfobacterota,Desulfobacterota_B,Desulfobacterota_I,Elusimicrobiota,FCPU426,Fibrobacterota,Firmicutes,Firmicutes_A,Firmicutes_C,JAFGBW01,Myxococcota,Nitrospirota,Patescibacteria,Planctomycetota,Proteobacteria,Spirochaetota,UBP7,Verrucomicrobiota,unknown,All
+Alfalfa,0,199,46,0,0,0,2,0,2,0,0,0,0,0,0,71,0,0,0,0,0,1,0,571,0,0,1,0,893
+Maize,0,586,56,0,0,3,0,9,0,0,0,0,0,0,0,90,0,0,0,0,0,8,0,399,0,19,1,0,1171
+Rice,14,274,141,7,8,18,7,0,8,6,0,2,1,4,30,73,7,10,1,112,31,51,7,1884,58,0,17,3,2774
+Wheat,1,661,152,0,0,0,0,0,5,0,1,0,0,0,2,182,0,0,0,5,0,46,0,805,0,0,1,0,1861
+All,15,1720,395,7,8,21,9,9,15,6,1,2,1,4,32,416,7,10,1,117,31,106,7,3659,58,19,20,3,6699

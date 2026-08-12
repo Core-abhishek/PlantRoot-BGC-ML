@@ -1,0 +1,10 @@
+Host,Type,<1%,1-5%,>5%,All
+Alfalfa,Isolate,531,243,5,779
+Alfalfa,MAG,27,74,13,114
+Maize,Isolate,776,280,0,1056
+Maize,MAG,48,59,8,115
+Rice,Isolate,1026,257,4,1287
+Rice,MAG,237,1056,194,1487
+Wheat,Isolate,1065,424,7,1496
+Wheat,MAG,89,221,55,365
+All,,3799,2614,286,6699

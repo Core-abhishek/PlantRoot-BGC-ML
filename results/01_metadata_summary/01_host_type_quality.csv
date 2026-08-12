@@ -1,0 +1,8 @@
+Type,Isolate,Isolate,MAG,MAG,All
+Quality_level,High-quality,Medium-quality (QS>50),High-quality,Medium-quality (QS>50),
+Host,,,,,
+Alfalfa,773,6,48,66,893
+Maize,1052,4,19,96,1171
+Rice,1280,7,538,949,2774
+Wheat,1471,25,118,247,1861
+All,4576,42,723,1358,6699
