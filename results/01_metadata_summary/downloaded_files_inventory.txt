@@ -1,0 +1,7 @@
+total 66G
+1.1G -rw-rw-r-- 1 abhishek abhishek 1.1G Aug 11 10:48 CRBC_gff_update.tar.gz
+196M -rw-rw-r-- 1 abhishek abhishek 196M Aug 11 10:54 CRBC_kegg_anno.tar.gz
+1.6M -rw-rw-r-- 1 abhishek abhishek 1.6M Aug 12 12:10 CRBC_metadata_update.xlsx
+6.1G -rw-rw-r-- 1 abhishek abhishek 6.1G Aug 12 20:12 CRBC_protein.tar.gz
+ 37G -rw-rw-r-- 1 abhishek abhishek  37G Aug 11 19:05 metagenome_BGC_part_1.tar.gz
+ 22G -rw-rw-r-- 1 abhishek abhishek  22G Aug 12 14:28 metagenome_BGC_part_2.tar.gz

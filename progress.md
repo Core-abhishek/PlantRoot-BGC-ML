@@ -8,3 +8,4 @@
 - Wrote and tested comprehensive metadata summary script
 - Generated host, quality, completeness, contamination and taxonomy distribution tables
 
+2026-08-14: Downloaded BGC parts 1 & 2, GFF, KEGG, proteins, metadata. Gene file downloading.
