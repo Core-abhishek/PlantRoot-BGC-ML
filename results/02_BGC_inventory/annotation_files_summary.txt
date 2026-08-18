@@ -1,0 +1,8 @@
+
+CRBC Annotation Files Summary (2026-08-18)
+
+Genes:     genes/CRBC_GXXXX.ffn.gz     (~6700 files)
+Proteins:  protein/CRBC_GXXXX.faa.gz   (6700 files)
+GFF:       gff/CRBC_GXXXX.gff.gz       (6701 files)
+
+All are one file per genome.
