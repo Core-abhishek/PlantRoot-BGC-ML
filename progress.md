@@ -11,3 +11,6 @@
 2026-08-14: Downloaded BGC parts 1 & 2, GFF, KEGG, proteins, metadata. Gene file downloading.
 2026-08-18: Genes file downloaded. Basic inventory of all CRBC data files completed. Inspected genes archive structure.
 2026-08-18: Confirmed structure of genes, proteins and GFF archives. All contain one compressed file per genome (~6700 files each).
+2026-08-18: Inspected antiSMASH JSON structure from one example genome (CRBC_G0207).
+Key fields identified: products, start/end, core_start/core_end, protoclusters (dict).
+Ready to design bulk extraction of BGC summary table.
