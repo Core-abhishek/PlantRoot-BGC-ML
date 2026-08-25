@@ -14,3 +14,11 @@
 2026-08-18: Inspected antiSMASH JSON structure from one example genome (CRBC_G0207).
 Key fields identified: products, start/end, core_start/core_end, protoclusters (dict).
 Ready to design bulk extraction of BGC summary table.
+
+## 2026-08-25
+- Generalised BGC extraction script to handle multiple JSON files
+- Added knowncluster_hits (novelty indicator)
+- Implemented region-specific gene function counts (SMCOGs)
+- Tested successfully on 3 genomes
+- Ready for bulk JSON extraction next
+
