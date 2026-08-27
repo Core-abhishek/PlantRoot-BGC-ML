@@ -22,3 +22,8 @@ Ready to design bulk extraction of BGC summary table.
 - Tested successfully on 3 genomes
 - Ready for bulk JSON extraction next
 
+## ## 2026-08-27
+- Optimised script for extracting 200 jsons in one batch, and extracting the csv summary from it.
+- Optimised script to run on both the BGC tar.gz files, and run in loop for all the json files across the tar.gz file in batches of 200.
+- The script was ran for the entire BGC file of CRBC, and the output summary file was generated. 
+
