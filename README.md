@@ -1,10 +1,10 @@
-# Plant root BGC Machine Learning Project
+# RhizoBac-BGC-ML
 
-# PlantRoot-BGC-ML
+Ranking and future ML prioritisation of bacterial biosynthetic gene clusters (BGCs) from crop-root / rhizosphere microbiomes.
 
-Rule-based ranking of biosynthetic gene clusters (BGCs) from crop-root bacteria using the public CRBC dataset.
+Data source: public Crop Root Bacterial Collection (CRBC).
 
-This is an active analysis pipeline, not a finished prediction tool.
+This is an active pipeline. The current method is rule-based ranking. Machine learning is planned after a stable feature table exists.
 
 ## Aim
 
@@ -12,7 +12,10 @@ Build a reusable workflow that:
 
 1. Extracts BGC features from antiSMASH JSON outputs
 2. Joins them to CRBC genome metadata
-3. Ranks clusters by novelty, product class, genome quality, and gene-function counts
+3. Ranks bacterial clusters by novelty, product class, genome quality, and gene-function counts
+4. Later trains an ML model on that feature table
+
+These are bacterial BGCs from root-associated microbes, not plant BGCs.
 
 The current ranking is an inventory shortlist. It does not prove plant-microbe communication.
 
@@ -20,13 +23,12 @@ The current ranking is an inventory shortlist. It does not prove plant-microbe c
 
 - BGC feature table: 48,352 regions from 6,519 CRBC genomes
 - Metadata join: host, genome type, quality, GTDB taxonomy
-- 56.9% of BGCs have knowncluster hits = 0
+- 56.9% of BGCs have knowncluster_hits = 0
 - First rule-based ranking is available
 - Next: correct ranking bias, then host-wise and class-wise shortlists
+- ML comes after the ranking rules are stable
 
 ## Data
-
-Source: Crop Root Bacterial Collection (CRBC) public release.
 
 Large files are not stored in this repository:
 
@@ -78,7 +80,7 @@ Requires Python 3, pandas, and openpyxl for the metadata Excel file.
 - No experimental validation
 - No metabolite structure
 - No expression evidence
-- No finished ML model
+- No finished ML model yet
 - No proof that a high-scoring BGC mediates plant-bacteria communication
 
 ## Status
