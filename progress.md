@@ -35,3 +35,12 @@ Ready to design bulk extraction of BGC summary table.
 - Zero-hit %: Rice 67.5, Alfalfa 55.7, Wheat 53.2, Maize 42.7
 - MAG novelty 68.1% vs Isolate 51.3%
 - Next: first BGC ranking score
+
+## 2026-09-01 (ranking)
+- First rule-based ranking on bgc_with_metadata.csv
+- Score = novelty + product weight + quality + gene-function counts
+- Score range 2.7 to 22.9
+- Top 100 biased to maize isolate NRPS/PKS hybrids (Maize 62, Wheat 13, Alfalfa 13, Rice 12)
+- This is an inventory shortlist, not communication ranking
+- Next: cap function score, rank within host, separate lists for hserlactone, siderophore, RiPP-like
+
