@@ -27,3 +27,11 @@ Ready to design bulk extraction of BGC summary table.
 - Optimised script to run on both the BGC tar.gz files, and run in loop for all the json files across the tar.gz file in batches of 200.
 - The script was ran for the entire BGC file of CRBC, and the output summary file was generated. 
 
+## 2026-08-30
+- Merged BGC summary with CRBC metadata on genome_id = GenomeID_standard
+- 48,352 BGC rows, 6,519 genomes, 0 rows missing host
+- 27,513 BGCs (56.9%) have knowncluster_hits = 0
+- Host BGC counts: Rice 18303, Wheat 14434, Maize 9502, Alfalfa 6113
+- Zero-hit %: Rice 67.5, Alfalfa 55.7, Wheat 53.2, Maize 42.7
+- MAG novelty 68.1% vs Isolate 51.3%
+- Next: first BGC ranking score
