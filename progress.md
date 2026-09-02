@@ -44,3 +44,38 @@ Ready to design bulk extraction of BGC summary table.
 - This is an inventory shortlist, not communication ranking
 - Next: cap function score, rank within host, separate lists for hserlactone, siderophore, RiPP-like
 
+## 2026-09-02
+- Corrected ranking: function score capped at 3, ranks within host
+- Max score fell from 22.9 to 12.0
+- Per-host top lists now dominated by novel isolate hserlactone BGCs
+- Class shortlists: hserlactone 1885, siderophore 2283, RiPP-like 4692
+- Taxonomy of top lists: hserlactone = Proteobacteria (Bradyrhizobium, Allorhizobium); siderophore more mixed (Solirubrobacter, Streptomyces, Bacillus, Acidovorax)
+- Next: check unique genomes in the hserlactone top 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
